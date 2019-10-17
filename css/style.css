@@ -48,8 +48,53 @@ html, body {
     color:white;
     letter-spacing: 5px;
 }
-@media screen and (max-width: 1358px){
+.break{
+    display: none;
+}
+.contact .col-lg-6{
+    border-right: 3px dashed white ;
+}
+.space{
+    display: contents;
+}
+@media screen and (max-width: 900px){
     .main .contact{
         margin:40px 200px;
+    }
+    .main .row h1{
+        font-size: 35px;
+        letter-spacing: 3px;
+    }
+    .main .row a{
+        font-size:25px;
+    }
+    .break{
+        display: contents;
+    }
+    .main h1{
+        font-size: 25px;
+    }
+    .main .contact{
+        margin:20px;
+
+    }
+    .main .contact h1{
+        font-size:25px;
+    }
+    .contact{
+        border:3px dashed white;
+    }
+    .contact .col-lg-6{
+        border: none;
+    }
+    .space{
+        display: none;
+    }
+    .main a{
+        font-size:20px;
+    
+    }
+    .main i{
+        font-size:20px;
     }
 }
