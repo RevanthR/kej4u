@@ -58,6 +58,11 @@ html, body {
     display: contents;
 }
 @media screen and (max-width: 900px){
+    .main{
+        margin: 0px auto;
+        display: block;
+        background-position: 30%;        
+    }
     .main .contact{
         margin:40px 200px;
     }
