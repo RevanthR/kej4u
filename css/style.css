@@ -2,11 +2,12 @@ html, body {
     overflow-x: hidden; 
    }
 .main{
-    background:url(../images/b1.gif);
+    background:url(../images/b2.gif);
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
     padding:40px;
     padding-bottom:80px;
     background-size: fixed;
+    background-position: 0%;  
     
 }
 .main .row{
