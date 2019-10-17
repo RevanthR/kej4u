@@ -48,3 +48,8 @@ html, body {
     color:white;
     letter-spacing: 5px;
 }
+@media screen and (max-width: 1358px){
+    .main .contact{
+        margin:40px 200px;
+    }
+}
