@@ -1,0 +1,50 @@
+html, body {  
+    overflow-x: hidden; 
+   }
+.main{
+    background:url(../images/b1.gif);
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
+    padding:40px;
+    padding-bottom:80px;
+    background-size: fixed;
+    
+}
+.main .row{
+    background: none;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0);
+}
+.main .row h1{
+    color:white;
+    font-size: 80px;
+    font-family: 'Fresca', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    text-align:center;
+   margin:10px auto;
+}
+.main .row img{
+    height:200px;
+    display: block;
+    margin:20px auto;
+}
+.main .contact{
+    margin:40px 350px;
+}
+.main .contact h1{
+    font-size:30px;
+    letter-spacing: 10px;
+}
+.main h1{
+    color:white;
+    font-family: 'Fresca', sans-serif;
+    text-align: center;
+    letter-spacing: 6px;
+    font-size:30px;
+    margin-top:30px;
+    /* text-decoration: underline; */
+
+}
+.main a{
+    color:white;
+    letter-spacing: 5px;
+}
